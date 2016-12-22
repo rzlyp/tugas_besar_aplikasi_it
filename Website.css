@@ -1,0 +1,140 @@
+body	{background-image : url('TargetBG.jpg');}
+#Menu 	{background-color : purple;
+		color : white;
+		height : 20px;
+		width : 100px;
+		border-radius : 3px;
+		text-align : center;
+		font-style : italic;}
+a 		{text-decoration : none;
+		color : purple;
+		font-family : verdana;}
+#First a:hover    {background-color : lightblue;}
+#First 	{font-weight : bold;
+		text-align : center;}
+#Second a:hover  {background-color : plum;}
+h1		{text-align : center;}
+h3		{text-align : center;
+		border : 3px dashed violet;
+		color : maroon;
+		width : 140px;
+		height : 25px;}
+.BottomText{background-color : black;
+			color : violet;
+			width : 100%;
+			height : 25px;
+			bottom : 0px;
+			position : fixed;
+			font-family : aharoni;
+			font-size : 20px;}
+.Image1 img{width : 80px;
+			height : 110px;
+			border : 0px;
+			right : 0px;
+			bottom : 25px;
+			position : fixed;}
+.Image2 img{width : 80px;
+			height : 110px;
+			border : 0px;
+			right : 0px;
+			bottom : 135px;
+			position : fixed;}
+.Image3 img{width : 80px;
+			height : 60px;
+			border : 0px;
+			right : 0px;
+			bottom : 245px;
+			position : fixed;}
+.Image4 img{width : 80px;
+			height : 90px;
+			border : 0px;
+			right : 0px;
+			bottom : 305px;
+			position : fixed;}
+ .Frente {color : midnightblue;
+		 font-family : corbel;
+		 text-align : center;}
+p.kontak{color : DarkGreen;}
+p.diskon{color : red;}
+p.top	{font-size : 17;
+		font-weight : bold;}
+ul		{text-align : left;}
+ol 		{text-align : left;}
+span 	{color : red;}
+table	{margin : auto;
+		border : 0px;
+		color : midnightblue;}
+img		{width : 200px;
+		height : 180px;
+		border : 5px ridge purple;}
+img.welcome {border : 0px;}
+#banner {background-color: lightblue;
+		animation : 6s changecolor infinite;
+		animation : 6s changecolor infinite;
+		width : 100%;
+		height : 55%;
+		margin : auto;
+		padding-top:5px;}
+
+@keyframes changecolor {
+	10% {background: violet;}
+    20% {background: lightskyblue;}
+	30% {background: plum;}
+	40% {background: skyblue;}
+	50% {background: thistle;}
+    60% {background: lightsteelblue;}
+	70% {background: orchid;}
+	80% {background: mediumstateblue;}
+	90% {background: mediumpurple;}
+    100% {background: steelblue;}
+}
+.logo{margin-left : 5px;
+	 float : left;
+	 width :70px; 
+     height :80px;
+	 border : 0px;}
+.title{float : left;}
+.title p {margin: 0}
+
+ p.atas{font-family : tempus sans ITC;
+	   font-size : 45;
+	   color : purple;
+	   margin-left : 10px;
+	   text-shadow: 10px 10px 5px indigo;}
+	   
+p.bawah{font-family : corbel;
+		font-size : 17;
+		color : white;
+		margin-left: 12px;
+		float : left;}	
+#pic{background : url('Background2.jpg');
+	 margin-top : 85px;
+	 width : 100%;
+	 height:160px;}
+	 
+#pic:hover {background : url('Background.jpg');}
+
+div.img {margin : 5px;
+		padding : 4px;
+		border: 3px solid white ;
+		float: right;}
+div.img img {display: inline;
+		   height: 40px;
+		   width: 50px;
+		   border: 1px solid white;
+	       float: right;}
+
+div.img a:hover img {border: 2px solid purple;
+				  width : 55px;
+				  height : 45px;}
+				  
+p.arrow{font-family : segoe script;
+		float : left;
+		color : white;
+		margin-left : 330px;
+		font-weight : bold;}	
+.link 	{text-align : center;
+		margin : auto;
+		color : midnightblue;}
+.link img{width : 300px;
+		height : 270px;}
